@@ -21,7 +21,7 @@ int main()
                 cout<<" ";
             }
             else{
-                cout<<"*";
+                cout<<"* ";
             }
         }
         cout<<endl;
