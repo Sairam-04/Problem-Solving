@@ -31,8 +31,8 @@ int main()
         cin>>array[i];
     }
     cout<<"Sorted array:";
-    int *x = selection_sort(array,5);
-    for(int i=0;i<5;i++){
+    int *x = selection_sort(array,n);
+    for(int i=0;i<n;i++){
         cout<<x[i]<<"  ";
     }
 }
